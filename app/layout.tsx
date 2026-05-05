@@ -10,6 +10,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google verification tag */}
+        <meta
+          name="google-site-verification"
+          content="Cw7Qm4jUeYeE5xJV_1DbnTcPw-jS7lR9WyQixdL4FRA"
+        />
+      </head>
       <body style={{ margin: 0, fontFamily: "Arial" }}>
 
         {/* 🔥 NAVBAR */}
