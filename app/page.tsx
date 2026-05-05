@@ -1,65 +1,105 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main style={{
+      padding: "40px",
+      fontFamily: "Arial",
+      maxWidth: "800px",
+      margin: "auto",
+      lineHeight: "1.6",
+      background: "linear-gradient(to bottom, #f0f4f8, #d1d5db)",
+      borderRadius: "15px",
+      boxShadow: "0 10px 25px rgba(0,0,0,0.1)"
+    }}>
+      
+      <h1 style={{ color: "#6C63FF", textAlign: "center", marginBottom: "30px" }}>
+        🎵 Sirf Shabana OST – Keh Diya Alvida
+      </h1>
+
+      <div style={{
+        background: "#f5f5ff",
+        padding: "20px",
+        borderRadius: "10px",
+        marginTop: "20px",
+        boxShadow: "0 4px 6px rgba(0,0,0,0.1)"
+      }}>
+        <h2>Lyrics with meaning</h2>
+        <p>
+          Dil dheere dheere tu usko bhula de <br />
+          Pyaar hai dhoka, na dil ko jala re <br />
+          <i style={{ marginLeft: "20px" }}>Slowly, slowly, make your heart forget him/her</i> <br />
+          <i style={{ marginLeft: "20px" }}>Love is deceit, don't burn your heart anymore</i> <br /><br />
+
+          Na kasoor tera, na hi tujhe se gila <br />
+          Na hi maanga kabhi dillagi ka sila <br />
+          <i style={{ marginLeft: "20px" }}>No fault of yours, nor any complaint against you</i> <br />
+          <i style={{ marginLeft: "20px" }}>Never asked for the reward of flirtation</i> <br /><br />
+
+          Dil ishq se bhar gaya, ja keh diya alvida <br />
+          Hum ho gaye juda <br />
+          <i style={{ marginLeft: "20px" }}>The heart filled with love, now say goodbye</i> <br />
+          <i style={{ marginLeft: "20px" }}>We have become separated</i> <br /><br />
+
+          Hai imtehaan bas aur bhi is aashiqui ke siwa <br />
+          Jo bhi hua tu bhool jaa <br />
+          Hum ho gaye juda <br />
+          <i style={{ marginLeft: "20px" }}>There is only the test besides this love</i> <br />
+          <i style={{ marginLeft: "20px" }}>Whatever happened, forget it</i> <br />
+          <i style={{ marginLeft: "20px" }}>We have become separated</i> <br /><br />
+
+          Haar gaye is pyaar se hum <br />
+          Dil na kahin lagana hai <br />
+          <i style={{ marginLeft: "20px" }}>We have lost in this love</i> <br />
+          <i style={{ marginLeft: "20px" }}>Don't attach the heart anywhere</i> <br /><br />
+
+          Un raaston pe chalna hai kyun <br />
+          Baad mein jo pachtana hai <br />
+          <i style={{ marginLeft: "20px" }}>Why walk on those paths</i> <br />
+          <i style={{ marginLeft: "20px" }}>That you'll regret later</i> <br /><br />
+
+          Na kasoor tera, na hi tujhe se gila <br />
+          Na hi maanga kabhi dillagi ka sila <br />
+          <i style={{ marginLeft: "20px" }}>No fault of yours, nor any complaint against you</i> <br />
+          <i style={{ marginLeft: "20px" }}>Never asked for the reward of flirtation</i> <br /><br />
+
+          Dil ishq se bhar gaya, ja keh diya alvida <br />
+          Hai imtehaan bas aur bhi is aashiqui ke siwa <br />
+          Jo bhi hua tu bhool jaa <br />
+          Hum ho gaye juda <br />
+          <i style={{ marginLeft: "20px" }}>The heart filled with love, now say goodbye</i> <br />
+          <i style={{ marginLeft: "20px" }}>There is only the test besides this love</i> <br />
+          <i style={{ marginLeft: "20px" }}>Whatever happened, forget it</i> <br />
+          <i style={{ marginLeft: "20px" }}>We have become separated</i>
+        </p>
+      </div>
+
+      <div style={{
+        background: "#fff4f4",
+        padding: "20px",
+        borderRadius: "10px",
+        marginTop: "20px",
+        boxShadow: "0 4px 6px rgba(0,0,0,0.1)"
+      }}>
+        <h2>Meaning</h2>
+        <p>
+          This song talks about moving on from a painful love.
+          The person accepts that no one is at fault and decides
+          to say goodbye.
+        </p>
+      </div>
+
+      <div style={{
+        background: "#f4fff7",
+        padding: "20px",
+        borderRadius: "10px",
+        marginTop: "20px",
+        boxShadow: "0 4px 6px rgba(0,0,0,0.1)"
+      }}>
+        <h2>Summary</h2>
+        <p>
+          A story of heartbreak, acceptance, and emotional healing.
+        </p>
+      </div>
+
+    </main>
   );
 }
