@@ -15,6 +15,8 @@ export default function Home() {
         🎵 Sirf Shabana OST – Keh Diya Alvida
       </h1>
 
+      <h2>🎵 Songs</h2>
+
       <div style={{
         background: "#f5f5ff",
         padding: "20px",
