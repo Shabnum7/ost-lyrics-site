@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Sirf Shabana OST Lyrics Meaning - Keh Diya Alvida",
+  description:
+    "Read Sirf Shabana OST lyrics meaning, translation and full explanation in English and Urdu.",
+};
+
 export default function Page() {
   return (
     <main style={{ padding: "40px", maxWidth: "800px", margin: "auto" }}>
